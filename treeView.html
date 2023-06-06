@@ -1,0 +1,338 @@
+<html ng-app="com.ngbook.demo">
+
+<head>
+    <meta name="description" content="ng trrview example with customer node icon with dragable">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css" />
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+    <script src="https://greengerong.github.io/self/cdn/angular.js"></script>
+    <style>
+        ul.tree-view,
+        .tree-view ul {
+            list-style: none;
+        }
+
+        .tree-view .node-item {
+            display: inline-block;
+        }
+
+        .tree-view .text-field {
+            text-decoration: none;
+            cursor: pointer;
+            color: #333;
+        }
+
+        .tree-view .text-field:hover {
+            text-decoration: none;
+            cursor: pointer;
+            color: #333;
+        }
+
+        .tree-view .text-field:focus {
+            text-decoration: none;
+            cursor: pointer;
+            color: #333;
+        }
+
+        .tree-view .check-box {
+            width: 24px;
+            height: 18px;
+            border-radius: 8px;
+        }
+
+        .tree-view .toolbar {
+            display: inline-block;
+        }
+
+        .tree-view .toolbar .btn {
+            padding: 0px;
+        }
+
+        .tree-view .toolbar .add {
+            color: #ff0000;
+        }
+
+        .tree-view .toolbar .remove {
+            color: #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+    <div ng-controller="DemoController as demo" class="container">
+        <div class="row">
+            <h2>Tree view</h2>
+            <tree-view tree-data="demo.tree" text-field="name" item-clicked="demo.itemClicked($item)"
+                item-checked-changed="demo.itemCheckedChanged($item)" can-checked="true" icon-field="icon"
+                toolbars="demo.toolbars" item-expended="demo.itemExpended($item, $parentItem);">
+            </tree-view>
+        </div>
+
+        <div class="row">
+            <h2>Item selected</h2>
+            <pre>{{demo.selectedItem | json}}</pre>
+        </div>
+        <script type="text/ng-template" id="/toolbar.html">
+		 <a href="" class="btn" ng-click="tollbarAddItem(item)">Add</a>
+		 </script>
+
+        <script type="text/ng-template" id="/treeView.html">
+        <ul class="tree-view" ng-init="$parentItem = {root: true, children: treeData};">
+               <li ng-repeat="item in treeData"  ng-include="itemTemplateUrl || defaultItemTemplateUrl" ></li>
+           </ul>  
+    </script>
+
+        <script type="text/ng-template" id="/treeItem.html">
+	<i ng-click="innerItemExpended(item, $parentItem, $event);" class="{{getItemIcon(item)}}"></i>
+
+      <input type="checkbox" ng-model="item.$$isChecked" class="check-box" ng-if="canChecked" ng-change="warpCallback('itemCheckedChanged', item, $parentItem, $event)" />
+
+
+ <div class="node-item">
+    <i ng-if="iconField" class="{{item[iconField]}}"></i>
+   <a class='text-field' ng-click="warpCallback('itemClicked', item, $parentItem, $event);">{{item[textField]}}</a>
+   <div class="toolbar" ng-if="toolbars && toolbars.length">
+     <a class="btn {{btn.class}}" ng-repeat="btn in toolbars" ng-click="btn.handler(item, $parentItem, btn)">
+       {{btn.text}}
+     </a>
+   </div>
+ </div>
+        <ul ng-if="!isLeaf(item)"
+		ng-show="item.$$isExpend" ng-init="$parentItem = item;"
+		>
+           <li ng-repeat="item in item.children"  ng-include="itemTemplateUrl || defaultItemTemplateUrl" ng-drag="true" ng-drag-data="item">
+           </li>
+       </ul>
+    </script>
+
+    </div>
+</body>
+<script>
+    angular.module("com.ngbook.demo", [])
+        .controller("DemoController", ['$http', function ($http) {
+            var vm = this;
+            vm.tree = [
+                {
+                    "id": "1",
+                    "pid": "0",
+                    "name": "家用电器",
+                    "icon": "fa fa-book",
+                    "children": [
+                        {
+                            "id": "4",
+                            "pid": "1",
+                            "name": "大家电",
+                            "icon": "fa fa-book",
+                            "children": [
+                                {
+                                    "id": "7",
+                                    "pid": "4",
+                                    "name": "空调",
+                                    "icon": "fa fa-book",
+                                    "children": [
+                                        {
+                                            "id": "15",
+                                            "pid": "7",
+                                            "icon": "fa fa-book",
+                                            "name": "海尔空调"
+                                        },
+                                        {
+                                            "id": "16",
+                                            "pid": "7",
+                                            "icon": "fa fa-book",
+                                            "name": "美的空调"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "8",
+                                    "pid": "4",
+                                    "icon": "fa fa-book",
+                                    "name": "冰箱"
+                                },
+                                {
+                                    "id": "9",
+                                    "pid": "4",
+                                    "icon": "fa fa-book",
+                                    "name": "洗衣机"
+                                },
+                                {
+                                    "id": "10",
+                                    "pid": "4",
+                                    "icon": "fa fa-book",
+                                    "name": "热水器"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5",
+                            "pid": "1",
+                            "name": "生活电器",
+                            "icon": "fa fa-book",
+                            "children": [
+                                {
+                                    "id": "19",
+                                    "pid": "5",
+                                    "icon": "fa fa-book",
+                                    "name": "加湿器"
+                                },
+                                {
+                                    "id": "20",
+                                    "pid": "5",
+                                    "icon": "fa fa-book",
+                                    "name": "电熨斗"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "pid": "0",
+                    "name": "服饰",
+                    "icon": "fa fa-book",
+                    "children": [
+                        {
+                            "id": "13",
+                            "pid": "2",
+                            "icon": "fa fa-book",
+                            "name": "男装"
+                        },
+                        {
+                            "id": "14",
+                            "pid": "2",
+                            "icon": "fa fa-book",
+                            "name": "女装"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "pid": "0",
+                    "name": "化妆",
+                    "icon": "fa fa-female",
+                    "children": [
+                        {
+                            "id": "11",
+                            "pid": "3",
+                            "icon": "fa fa-female",
+                            "name": "面部护理"
+                        },
+                        {
+                            "id": "12",
+                            "pid": "3",
+                            "icon": "fa fa-female",
+                            "name": "口腔护理"
+                        }
+                    ]
+                }
+            ];
+
+            vm.itemClicked = function ($item) {
+                vm.selectedItem = $item;
+                console.log($item, 'item clicked');
+            };
+
+            vm.itemCheckedChanged = function ($item) {
+                $http.post('/url', $item);
+                console.log($item, 'item checked');
+            };
+
+            vm.itemExpended = function ($item, $parentItem) {
+                console.log($item, $parentItem, 'item expend');
+                _.chain($parentItem.children).forEach(function (item) {
+                    if (item.id !== $item.id) {
+                        item.$$isExpend = false;
+                    }
+                }).value();
+            };
+
+            vm.toolbars = [{
+                text: '',
+                handler: function (item) {
+                    console.log('modify', item);
+                    item.name = item.name + '--modify';
+                },
+                class: 'fa fa-pencil add '
+            }, {
+                text: '',
+                handler: function (item, $parentItem) {
+                    console.log('add', item);
+                    item.children = item.children || [];
+                    item.children.push({ name: 'new add' });
+                },
+                class: 'fa fa-plus add '
+            },
+            {
+                text: '',
+                handler: function (item, $parentItem) {
+                    console.log('Remove', item);
+                    _.remove($parentItem.children, item);
+                },
+                class: 'fa fa-times  remove'
+            }
+            ];
+
+            return vm;
+        }])
+        .constant('treeViewConfig', {
+            itemExpendIcon: 'fa fa-minus',
+            itemCollapseIcon: 'fa fa-plus',
+            itemLeafIcon: 'fa fa-leaf',
+            itemTemplateUrl: '/treeItem.html'
+        })
+        .directive('treeView', ['treeViewConfig', function (treeViewConfig) {
+
+            return {
+                restrict: 'EA',
+                templateUrl: '/treeView.html',
+                scope: {
+                    treeData: '=',
+                    canChecked: '=',
+                    textField: '@',
+                    iconField: '@',
+                    itemClicked: '&',
+                    itemCheckedChanged: '&',
+                    itemExpended: '&',
+                    itemTemplateUrl: '@',
+                    toolbars: '='
+
+                },
+                controller: ['$scope', function ($scope) {
+                    $scope.defaultItemTemplateUrl = treeViewConfig.itemTemplateUrl;
+                    $scope.innerItemExpended = function (item, $parentItem, $event) {
+                        item.$$isExpend = !item.$$isExpend;
+                        $event.stopPropagation();
+                        $scope.warpCallback('itemExpended', item, $parentItem, $event);
+                    };
+
+                    $scope.getItemIcon = function (item) {
+                        var isLeaf = $scope.isLeaf(item);
+
+                        if (isLeaf) {
+                            return treeViewConfig.itemLeafIcon;
+                        }
+
+                        return item.$$isExpend ? treeViewConfig.itemExpendIcon : treeViewConfig.itemCollapseIcon;
+                    };
+
+                    $scope.isLeaf = function (item) {
+                        return !item.children || !item.children.length;
+                    };
+
+                    $scope.warpCallback = function (callback, item, $parentItem, $event) {
+                        ($scope[callback] || angular.noop)({
+                            $item: item,
+                            $parentItem, $parentItem,
+                            $event: $event
+                        });
+                    };
+                }]
+            };
+        }]);
+</script>
+
+</html>
