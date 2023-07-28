@@ -537,7 +537,7 @@ a:focus, a:hover {
 }
 
 .sticky-header {
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
 }
 
@@ -839,13 +839,25 @@ a:focus, a:hover {
 .about-2 .checklist {
   padding-left: 30px;
 }
-
+.blue{
+  color: #29aae2;
+}
+.mango{
+  color: #fbbc05;
+}
 .about-2 .checklist li {
   position: relative;
   margin-bottom: 15px;
   font-size: 16px;
   color: #777;
   font-family: "Source Sans Pro", sans-serif;
+}
+.about-2 .mobile .checklist li {
+  color: #404040;
+}
+.about-2 .checklist li span {
+  font-size: 14px;
+  color: #777;
 }
 
 .about-2 .checklist li:before {
@@ -2617,7 +2629,7 @@ a:focus, a:hover {
   padding-bottom: 135px;
 }
 .strategy{
-  background: transparent url(../images/about/about3-bg.jpg) center center/cover no-repeat scroll;
+  background: transparent url(../images/about/about3-bg.jpg) center center/cover no-repeat fixed;
   padding-top: 85px;
   padding-bottom: 135px;
 }
@@ -2733,6 +2745,10 @@ display: flex;
   align-items: center;
 }
 
+.about-2 .mobile .checklist li {
+  display: grid;
+  align-items: center;
+}
 
 .dropdown-menu li {
   position: relative;
@@ -2749,4 +2765,7 @@ display: flex;
   }
   .dropdown-menu > li:hover > .dropdown-submenu {
   display: block;
+  }
+  .m-radius{
+    border-radius: 2.1em;
   }
