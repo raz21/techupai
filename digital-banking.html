@@ -8,7 +8,8 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Your Digital Technology Partner To Accelerate Success. TECHUPAI employs professionals with many years of experience in IT engaged in complex and challenging solutions">
+    <meta name="description"
+        content="Your Digital Technology Partner To Accelerate Success. TECHUPAI employs professionals with many years of experience in IT engaged in complex and challenging solutions">
     <title>TECHUPAI | IT Services and Solutions</title>
 
     <!-- Mobile Specific Meta
@@ -24,27 +25,28 @@
     <link rel="stylesheet" href="css/ionicons.css">
     <link rel="stylesheet" href="css/flaticons.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <!-- bootstrap.min css -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
     <!-- Lightbox.min css -->
-    <link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css">
+    <!-- <link rel="stylesheet" href="plugins/lightbox2/dist/css/lightbox.min.css"> -->
     <!-- animation css -->
     <link rel="stylesheet" href="plugins/animate/animate.css">
     <!-- Slick Carousel -->
     <link rel="stylesheet" href="plugins/slick/slick.css">
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPHYG6M0FC"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	
-	  gtag('config', 'G-MPHYG6M0FC');
-	</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MPHYG6M0FC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
+        gtag('config', 'G-MPHYG6M0FC');
+    </script>
 </head>
 
 <body id="body">
@@ -65,95 +67,49 @@
     <!--
   End Preloader
   ==================================== -->
-
-
-
-
     <!--
 Fixed Navigation
 ==================================== -->
-    <header class="navigation fixed-top">
-        <div class="container">
-            <!-- main nav -->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <!-- logo -->
-                <a class="navbar-brand logo" href="index.html">
-                    <img class="logo-default" src="images/logo.png" alt="logo" />
-                    <img class="logo-white" src="images/logo-white.png" alt="logo" />
-                </a>
-                <!-- /logo -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<header  id="header" class="navigation fixed-top">
+	<div class="container d-flex align-items-center justify-content-between">            
+		<a class="navbar-brand logo" href="index.html">
+			<img class="logo-default" src="images/logo.png" alt="logo" />
+			<img class="logo-white" src="images/logo-white.png" alt="logo" />
+		</a>
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+			<ul class="navbar-nav ml-auto text-center">
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="about.html"
+						id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false">About Us</a>
 
-                <div class="collapse navbar-collapse" id="navigation">
-                    <ul class="navbar-nav ml-auto text-center">
-                        <!-- <li class="nav-item dropdown active">
-		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-		  aria-haspopup="true" aria-expanded="false">
-		  Homepage
-		</a>
-		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		  <a class="dropdown-item" href="index.html">Homepage</a>
-		  <a class="dropdown-item" href="onepage-slider.html">Onepage</a>
-		  <a class="dropdown-item" href="onepage-text.html">Onepage 2</a>
-		</div>
-	  </li> -->
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="about.html"
-                                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">About Us</a>
-                            
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="about.html">Comany Overview</a>
-								<a class="dropdown-item" href="methodology.html">Our Approach</a>
-								<a class="dropdown-item" href="portfolio.html">Our Work</a>
-							</div>
-                        </li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="services.html"
-                                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">Services</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="services.html">Overview</a>
-                                <a class="dropdown-item" href="digital-banking.html">Digital Banking Solutions</a>
-								<a class="dropdown-item" href="digital-transformation.html">Digital Transformation</a>
-                                <a class="dropdown-item" href="cloud-solutions.html">Cloud Services</a>
-                                <a class="dropdown-item" href="mobile-development.html">Mobile Development</a>
-                                <a class="dropdown-item" href="product-engineering.html">Product Engineering</a>
-                                <a class="dropdown-item" href="app-services.html">Application Services</a>
-                                <a class="dropdown-item" href="digital-marketing.html">Digital Marketing</a>
-                                
-                            </div>
-                        </li>
-                        <!-- <li class="nav-item ">
-		<a class="nav-link" href="portfolio.html">Portfolio</a>
-	  </li>
-	  <li class="nav-item ">
-		<a class="nav-link" href="team.html">Team</a>
-	  </li>
-	  <li class="nav-item ">
-		<a class="nav-link" href="pricing.html">Pricing</a>
-	  </li> -->
-                        <li class="nav-item ">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <!-- <li class="nav-item dropdown">
-		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-		  aria-haspopup="true" aria-expanded="false">
-		  Pages
-		</a>
-		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		  <a class="dropdown-item" href="404.html">404 Page</a>
-		  <a class="dropdown-item" href="blog.html">Blog Page</a>
-		  <a class="dropdown-item" href="single-post.html">Blog Single Page</a>
-		</div>
-	  </li> -->
-                    </ul>
-                </div>
-            </nav>
-            <!-- /main nav -->
-        </div>
-    </header>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="about.html">Comany Overview</a>
+						<a class="dropdown-item" href="methodology.html">Our Approach</a>
+						<a class="dropdown-item" href="portfolio.html">Our Work</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="services.html"
+						id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false">Services</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="services.html">Overview</a>
+						<a class="dropdown-item" href="app-services.html">Application Services</a>
+						<a class="dropdown-item" href="digital-transformation.html">Digital Transformation</a>
+						<a class="dropdown-item" href="digital-banking.html">Digital Banking Solutions</a>
+						<a class="dropdown-item" href="mobile-development.html">Mobile Development</a>
+						<a class="dropdown-item" href="cloud-solutions.html">Cloud Services</a>
+						<a class="dropdown-item" href="product-engineering.html">Product Engineering</a>
+						<a class="dropdown-item" href="digital-marketing.html">Digital Marketing</a>
+					</div>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+			<i class="bi bi-list mobile-nav-toggle"></i>
+		</nav>
+	</div>
+</header>
     <!--
 End Fixed Navigation
 ==================================== -->
@@ -175,15 +131,30 @@ End Fixed Navigation
 
     <section class="about-shot-info section-sm">
         <div class="container">
-			<div class="title text-center">
-                <h2><span class="blue">Accelerate</span> digital innovation with our <br> FinTech software development</h2>
-                <p>Techupai will help you develop a secure and high-performing solution with optimized business logic and streamlined processes for new revenue streams</p>
-                    
-			</div>
+            <div class="title text-center">
+                <h2><span class="blue">Accelerate</span> digital innovation with our <br> FinTech software development
+                </h2>
+                <p>Techupai will help you develop a secure and high-performing solution with optimized business logic
+                    and streamlined processes for new revenue streams</p>
+
+            </div>
             <div class="row">
-                <div class="col-md-8 pl-0 mt-20 order-lg-1 order-md-1 order-2">
-                    <p>As a leading software development company Techupai's Full-Stack FinTech Software Development Services offer you the most resilient, scalable, and high-performing FinTech solutions. Our development services are carefully planned to ensure the solution being delivered meets all your business expectations. We combine our in-depth understanding of the banking and financial sectors with our tech expertise obtained from working on countless fintech projects to provide a solution that gives a competitive edge to your business. Our team of custom software development service experts build complex architectures that protect your users' data, transactions, and network information from DDoS and other attacks. Our team implements robust FinTech app security solutions that encrypt applications, databases, and server coverage seamlessly.</p>
-                    <p>We help banks rationalize their processes to increase profitability using the power of technology and by providing our financial software development services. In today's reality of the fast-changing global economy, banks must be prepared to tackle the issues related to efficiency, customer experience, and compliance. Therefore, you can upgrade your outdated systems, eliminate technical debt, and improve data management. Techupai's banking software development expertise includes core banking systems, Online banking, Mobile-Tab banking, etc.
+                <div class="col-md-8 ps-lg-0 mt-20 order-lg-1 order-md-1 order-2">
+                    <p>As a leading software development company Techupai's Full-Stack FinTech Software Development
+                        Services offer you the most resilient, scalable, and high-performing FinTech solutions. Our
+                        development services are carefully planned to ensure the solution being delivered meets all your
+                        business expectations. We combine our in-depth understanding of the banking and financial
+                        sectors with our tech expertise obtained from working on countless fintech projects to provide a
+                        solution that gives a competitive edge to your business. Our team of custom software development
+                        service experts build complex architectures that protect your users' data, transactions, and
+                        network information from DDoS and other attacks. Our team implements robust FinTech app security
+                        solutions that encrypt applications, databases, and server coverage seamlessly.</p>
+                    <p>We help banks rationalize their processes to increase profitability using the power of technology
+                        and by providing our financial software development services. In today's reality of the
+                        fast-changing global economy, banks must be prepared to tackle the issues related to efficiency,
+                        customer experience, and compliance. Therefore, you can upgrade your outdated systems, eliminate
+                        technical debt, and improve data management. Techupai's banking software development expertise
+                        includes core banking systems, Online banking, Mobile-Tab banking, etc.
                     </p>
                 </div>
                 <div class="col-md-4 px-0 text-center order-lg-2 order-md-2 order-1">
@@ -198,9 +169,9 @@ End Fixed Navigation
                     <img src="images/about/digital-transaction.jpg" class="img-fluid" alt="">
                 </div>
             </div>
-            
+
             <div class="text-center">
-                
+
             </div>
         </div>
     </section>
@@ -215,17 +186,25 @@ End Fixed Navigation
                 <div class="col-12">
                     <div class="title text-center text-white">
                         <h2 class="text-white"><span class="mango">Unified experience</span>, Simplified everything</h2>
-                        <p>We help a large number of our customers better understand what challenges they can overcome by adopting fintech. The fintech ecosystem is growing rapidly and unites thousands of solutions for payments and transfers, lending and financing, insurance, financial management, markets and exchanges. Our team has strong experience providing fintech software development services by implementing both ready-made solutions and custom apps. We not only deliver innovative software products, but also ensure professional tech advisory and support to manage changes to architecture that arise after implementation.</p>
+                        <p>We help a large number of our customers better understand what challenges they can overcome
+                            by adopting fintech. The fintech ecosystem is growing rapidly and unites thousands of
+                            solutions for payments and transfers, lending and financing, insurance, financial
+                            management, markets and exchanges. Our team has strong experience providing fintech software
+                            development services by implementing both ready-made solutions and custom apps. We not only
+                            deliver innovative software products, but also ensure professional tech advisory and support
+                            to manage changes to architecture that arise after implementation.</p>
                     </div>
                     <div class="row">
-                        <div class="col-md-3 pl-lg-0">
+                        <div class="col-md-3 ps-lg-0">
                             <div class="cloud-service">
                                 <h6 class="text-white">
                                     <span class="cs-service-icon">
                                         <i class="ionicons ion-ios-cloud-outline"></i>
                                     </span>Digital Banking
                                 </h6>
-                                <p>With our services, your bank will gain a comprehensive set of capabilities, including flexible product factories, extensive parameterization, product bundling and reusable business components, to help accelerate innovation led growth.</p>
+                                <p>With our services, your bank will gain a comprehensive set of capabilities, including
+                                    flexible product factories, extensive parameterization, product bundling and
+                                    reusable business components, to help accelerate innovation led growth.</p>
                             </div>
                         </div>
                         <div class="col-md-3 px-lg-0">
@@ -235,31 +214,40 @@ End Fixed Navigation
                                         <i class="fas fa-hand-holding-usd"></i>
                                     </span> Digital Lending
                                 </h6>
-                                <p>We offer end-to-end custom development, modernization, and integration of loan management software solutions for financial organizations and banks. All solutions are produced to help our clients gain efficiency in their operations and reduce costs.</p>
+                                <p>We offer end-to-end custom development, modernization, and integration of loan
+                                    management software solutions for financial organizations and banks. All solutions
+                                    are produced to help our clients gain efficiency in their operations and reduce
+                                    costs.</p>
                                 <!-- <p>We develop a multi-segment, multi-product solution that helps banks and FIs originate and service loans, digitally. Built on a cloud-native open architecture, the componentized suite empowers your bank deliver new propositions across the loan lifecycle. </p> -->
                             </div>
                         </div>
-                        <div class="col-md-3 pr-lg-0">
+                        <div class="col-md-3 pe-lg-0">
                             <div class="cloud-service">
                                 <h6 class="text-white">
                                     <span class="cs-service-icon">
                                         <i class="fas fa-donate"></i>
                                         <!-- <i class="ionicons ion-social-usd-outline"></i>-->
-                                    </span> 
-                                        Financial Management
+                                    </span>
+                                    Financial Management
                                 </h6>
-                                <p>We build an advanced architecture which empowers your bank to deliver new propositions in digital cash management, which help banks around the world reimagine their cash management service offerings with digital technologies to drive new revenue streams.</p>
+                                <p>We build an advanced architecture which empowers your bank to deliver new
+                                    propositions in digital cash management, which help banks around the world reimagine
+                                    their cash management service offerings with digital technologies to drive new
+                                    revenue streams.</p>
                             </div>
                         </div>
-                        <div class="col-md-3 pr-lg-0">
+                        <div class="col-md-3 pe-lg-0">
                             <div class="cloud-service">
                                 <h6 class="text-white">
                                     <span class="cs-service-icon">
                                         <i class="ionicons ion-ios-star-outline"></i>
-                                    </span> 
+                                    </span>
                                     Regulatory compliance
                                 </h6>
-                                <p>We help financial organizations better deal with compliance regulations with the help of technology. In case you have any pressing issues with compliance, our experts will identify the right technology solutions for you based on in-depth business analysis.</p>
+                                <p>We help financial organizations better deal with compliance regulations with the help
+                                    of technology. In case you have any pressing issues with compliance, our experts
+                                    will identify the right technology solutions for you based on in-depth business
+                                    analysis.</p>
                             </div>
                         </div>
                     </div>
@@ -267,13 +255,138 @@ End Fixed Navigation
             </div>
         </div>
     </section>
-
-    <section class="about-shot-info section-sm">
+    <!-- ======= Specials Section ======= -->
+    <section class="py-5 specials" id="specials">
         <div class="container">
             <div class="title text-center text-white">
                 <h2><span class="blue">OUR</span> SERVICES</h2>
             </div>
+
+            <div class="d-flex align-items-start">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link active" id="v-pills-development-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-development" type="button" role="tab"
+                                aria-controls="v-pills-development" aria-selected="true">Software Development</button>
+                            <button class="nav-link" id="v-pills-Accounting-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-Accounting" type="button" role="tab"
+                                aria-controls="v-pills-Accounting" aria-selected="false">Accounting Management</button>
+                            <button class="nav-link" id="v-pills-Mobile-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-Mobile" type="button" role="tab" aria-controls="v-pills-Mobile"
+                                aria-selected="false">Mobile Banking Development</button>
+                            <button class="nav-link" id="v-pills-Lending-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-Lending" type="button" role="tab"
+                                aria-controls="v-pills-Lending" aria-selected="false">Lending app development</button>
+                            <button class="nav-link" id="v-pills-Internet-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-Internet" type="button" role="tab"
+                                aria-controls="v-pills-Internet" aria-selected="false">Internet Banking</button>
+                            <button class="nav-link" id="v-pills-security-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-security" type="button" role="tab"
+                                aria-controls="v-pills-security" aria-selected="false">Cybersecurity for
+                                banking</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-development" role="tabpanel"
+                                aria-labelledby="v-pills-development-tab">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Banking Software Development</h3>
+                                        <p>Rebuild your legacy system and set up the plan of the
+                                            further Manual Banking Transformation from Physical to Digital. Our digital
+                                            technologies and innovative strategies into the financial services sector to
+                                            improve operational efficiency, enhance customer experiences, and adapt to
+                                            the evolving market landscape.</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="images/about/product-engg.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-Accounting" role="tabpanel"
+                                aria-labelledby="v-pills-Accounting-tab">                                
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Accounting Management</h3>
+                                        <p>Accounting and Cash management software plays a crucial role in enhancing financial management capabilities in the banking industry, leading to improved customer service, cost savings, and increased profitability.</p>
+                                        <p>Accounting software aim to improve operational efficiency, accuracy, and compliance in financial institutions. These software solutions help banks automate manual processes, reduce errors, and provide real-time visibility into financial data. They also enable banks to make informed decisions, optimize cash flow, and ensure regulatory compliance.</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="images/about/cashmgmt.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-Mobile" role="tabpanel"
+                                aria-labelledby="v-pills-Mobile-tab">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Mobile Banking Development</h3>
+                                        <p>Mobile/ Tab Banking revolutionizes the cumbersome traditional banking to serve services on the go to today's tech savvy customers. It's an absolutely immersive digital world out there, replete with new and refreshing experiences for users - where counters have evolved into interfaces, changing rooms into virtual try-on and store representatives into interactive chatbots.
+                                        </p>
+                                        <p>Mobility is the key to success. Mobile technology focusses on connecting customers by delivering digital experience that is safe and convenient. The proliferation of smartphones and changing customer preferences towards banking has made banks move beyond conventional banking.</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="images/about/digiBanking.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-Lending" role="tabpanel"
+                                aria-labelledby="v-pills-Lending-tab">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Lending app development</h3>
+                                        <p>Each lending business has unique loan management processes and credit automation needs. In our lending software projects, we create loan management systems with functionality tailored to each of our customers' business specifics. Users can apply for loans through the app, and lenders can review and approve loan applications.</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="images/about/digital-banking.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-Internet" role="tabpanel"
+                                aria-labelledby="v-pills-Internet-tab">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Internet Banking</h3>
+                                        <p>In the ever-evolving banking sector, internet plays a vital role and has transformed the banking experience. Today, banks are using internet banking to serve customers 24X7 and also to attract new customers.</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="images/about/online.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-security" role="tabpanel"
+                                aria-labelledby="v-pills-security-tab">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Cybersecurity for banking</h3>
+                                        <p>Our cybersecurity engineers will help you create a software product that ensures data privacy protection at all system levels, including architecture and user experience.</p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="images/about/security.jpg" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             
+            <div class="text-center pt-5">
+                <img src="images/about/digi-transform.png" class="img-fluid" alt="">
+            </div>
+
+        </div>
+    </section><!-- End Specials Section -->
+    <!-- <section class="about-shot-info section-sm">
+        <div class="container">
+            <div class="title text-center text-white">
+                <h2><span class="blue">OUR</span> SERVICES</h2>
+            </div>
+
             <div class="how-it-works row text-center text-md-left grid-gap">
                 <div class="col-md-6">
                     <div class="row">
@@ -283,7 +396,10 @@ End Fixed Navigation
 
                         <div class="col">
                             <h5>Banking Software Development</h5>
-                            <p>Rebuild your legacy system and set up the plan of the further Manual Banking Transformation from Physical to Digital. Our digital technologies and innovative strategies into the financial services sector to improve operational efficiency, enhance customer experiences, and adapt to the evolving market landscape.</p>
+                            <p>Rebuild your legacy system and set up the plan of the further Manual Banking
+                                Transformation from Physical to Digital. Our digital technologies and innovative
+                                strategies into the financial services sector to improve operational efficiency, enhance
+                                customer experiences, and adapt to the evolving market landscape.</p>
                         </div>
                     </div>
                 </div>
@@ -295,7 +411,11 @@ End Fixed Navigation
 
                         <div class="col">
                             <h5>Accounting Management</h5>
-                            <p>Tab Banking revolutionizes the cumbersome traditional banking to serve services on the go to today's tech savvy customers. It's an absolutely immersive digital world out there, replete with new and refreshing experiences for users - where counters have evolved into interfaces, changing rooms into virtual try-on and store representatives into interactive chatbots.</p>
+                            <p>Tab Banking revolutionizes the cumbersome traditional banking to serve services on the go
+                                to today's tech savvy customers. It's an absolutely immersive digital world out there,
+                                replete with new and refreshing experiences for users - where counters have evolved into
+                                interfaces, changing rooms into virtual try-on and store representatives into
+                                interactive chatbots.</p>
                         </div>
                     </div>
                 </div>
@@ -308,7 +428,10 @@ End Fixed Navigation
                         </div>
                         <div class="col">
                             <h5>Mobile Banking Development</h5>
-                            <p>Mobility is the key to success. Mobile technology focusses on connecting customers by delivering digital experience that is safe and convenient. The proliferation of smartphones and changing customer preferences towards banking has made banks move beyond conventional banking.</p>
+                            <p>Mobility is the key to success. Mobile technology focusses on connecting customers by
+                                delivering digital experience that is safe and convenient. The proliferation of
+                                smartphones and changing customer preferences towards banking has made banks move beyond
+                                conventional banking.</p>
                         </div>
                     </div>
                 </div>
@@ -321,7 +444,10 @@ End Fixed Navigation
                         </div>
                         <div class="col">
                             <h5>Lending app development</h5>
-                            <p>Each lending business has unique loan management processes and credit automation needs. In our lending software projects, we create loan management systems with functionality tailored to each of our customers' business specifics. Users can apply for loans through the app, and lenders can review and approve loan applications.</p>
+                            <p>Each lending business has unique loan management processes and credit automation needs.
+                                In our lending software projects, we create loan management systems with functionality
+                                tailored to each of our customers' business specifics. Users can apply for loans through
+                                the app, and lenders can review and approve loan applications.</p>
                         </div>
                     </div>
                 </div>
@@ -332,36 +458,35 @@ End Fixed Navigation
                         </div>
                         <div class="col pl-4">
                             <h5>Internet Banking</h5>
-                            <p>In the ever-evolving banking sector, internet plays a vital role and has transformed the banking experience. Today, banks are using internet banking to serve customers 24X7 and also to attract new customers.</p>
+                            <p>In the ever-evolving banking sector, internet plays a vital role and has transformed the
+                                banking experience. Today, banks are using internet banking to serve customers 24X7 and
+                                also to attract new customers.</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-auto my-4 my-md-0">
                             <div class="tu-icon m-auto m-md-0">
-                                <!-- <i class="ionicons ion-lock-combination"></i> -->                                 
                                 <i class="ionicons ion-ios-locked-outline"></i>
                             </div>
                         </div>
                         <div class="col pl-4">
                             <h5>Cybersecurity for banking</h5>
-                            <p>Our cybersecurity engineers will help you create a software product that ensures data privacy protection at all system levels, including architecture and user experience.</p>
+                            <p>Our cybersecurity engineers will help you create a software product that ensures data
+                                privacy protection at all system levels, including architecture and user experience.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="text-center">
-                <img src="images/about/digi-transform.png" class="img-fluid" alt="">
-            </div>
 
         </div>
-    </section>
+    </section> -->
     <section class="about-2 section" id="about">
         <div class="container mobile">
-            
+
             <div class="title text-center text-white">
                 <h2><span class="blue">WHY</span> TECHUPAI</h2>
             </div>
@@ -369,12 +494,32 @@ End Fixed Navigation
                 <div class="col-md-8 px-0">
                     <h5>Benefits of services</h5>
                     <ul class="checklist ml-3">
-                        <li>Improved revenue streams <br> <span>Identify gaps in your business flows, analyze how they deprive you of additional revenue, and use this knowledge to monetize your business to the fullest. Convert more customers and expand your business by optimizing your business offering.</span></li>
-                        <li>Business process optimization  <br> <span>Unburden your staff and reveal more resources for product enhancement by optimizing and automating your business and operating processes. Implement advanced analytics and business intelligence solutions to streamline your process efficiency and optimize operating costs.</span></li>
-                        <li>User experience optimization <br> <span>Analyze the user experience and identify and eliminate bottlenecks to deliver a user-centric and conversion-optimized solution to your customers. Shift from a design-first to a requirements-first approach to meet your customers' needs. Design a frontend architecture that enables easy, rich, and smooth customization.</span></li>
-                        <li>Flexibility and scalability <br> <span>Prepare your software architecture for intensive financial operations and high user traffic by making it flexible, able to automatically scale, cost-effective, and easily maintainable. Whether you are undertaking an architectural redesign or designing from scratch, we will ensure your solution is built with scalability and business expansion in mind.</span></li>
-                        <li>Third-party integrations <br> <span>Speed up your solution development by implementing core and extra functionality from third-party providers. Integrate only with proven services, be technologically prepared for possible data management challenges, and ensure cost-efficient provisioning according to your requirements.</span></li>
-                        <li>High load maintenance <br> <span>Get 24/7 Techupai's support with on-call teams monitoring your solution's performance, eliminating any emerging issues, and designing risk assessment and management strategies. Implement disaster recovery plans and automated recovery procedures to protect  sensitive financial data.</span></li>
+                        <li>Improved revenue streams <br> <span>Identify gaps in your business flows, analyze how they
+                                deprive you of additional revenue, and use this knowledge to monetize your business to
+                                the fullest. Convert more customers and expand your business by optimizing your business
+                                offering.</span></li>
+                        <li>Business process optimization <br> <span>Unburden your staff and reveal more resources for
+                                product enhancement by optimizing and automating your business and operating processes.
+                                Implement advanced analytics and business intelligence solutions to streamline your
+                                process efficiency and optimize operating costs.</span></li>
+                        <li>User experience optimization <br> <span>Analyze the user experience and identify and
+                                eliminate bottlenecks to deliver a user-centric and conversion-optimized solution to
+                                your customers. Shift from a design-first to a requirements-first approach to meet your
+                                customers' needs. Design a frontend architecture that enables easy, rich, and smooth
+                                customization.</span></li>
+                        <li>Flexibility and scalability <br> <span>Prepare your software architecture for intensive
+                                financial operations and high user traffic by making it flexible, able to automatically
+                                scale, cost-effective, and easily maintainable. Whether you are undertaking an
+                                architectural redesign or designing from scratch, we will ensure your solution is built
+                                with scalability and business expansion in mind.</span></li>
+                        <li>Third-party integrations <br> <span>Speed up your solution development by implementing core
+                                and extra functionality from third-party providers. Integrate only with proven services,
+                                be technologically prepared for possible data management challenges, and ensure
+                                cost-efficient provisioning according to your requirements.</span></li>
+                        <li>High load maintenance <br> <span>Get 24/7 Techupai's support with on-call teams monitoring
+                                your solution's performance, eliminating any emerging issues, and designing risk
+                                assessment and management strategies. Implement disaster recovery plans and automated
+                                recovery procedures to protect sensitive financial data.</span></li>
                     </ul>
                 </div>
                 <div class="col-md-4 pr-0 my-4 my-md-0 text-center">
@@ -417,12 +562,15 @@ End Fixed Navigation
                             complex projects development and truly challenging solutions.</p>
                         <h3 class="mt-4 mb-2">Follow Us</h3>
                         <div class="d-flex justify-content-start social">
-                            <a class="btn btn-outline-primary btn-square mr-2" href="https://twitter.com/techupai"  target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-2" href="https://twitter.com/techupai"
+                                target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-2" href="https://www.facebook.com/techupai/"
+                                target="_blank"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-primary btn-square mr-2"
-                                href="https://www.facebook.com/techupai/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-2" href="https://www.linkedin.com/company/techupai/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square"
-                                href="https://www.instagram.com/techupai/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                href="https://www.linkedin.com/company/techupai/" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/techupai/"
+                                target="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <!-- End of .col-sm-3 -->
@@ -472,13 +620,14 @@ End Fixed Navigation
             </div> <!-- end container -->
         </div>
         <div class="footer-bottom">
-            <h5>Copyright © TECHUPAI Technologies 2023. All rights reserved</h5>
+            <h5>Copyright © TECHUPAI Technologies 2024. All rights reserved</h5>
         </div>
     </footer> <!-- end footer -->
 
 
     <!-- end Footer Area
     ========================================== -->
+
 
     <!-- 
     Essential Scripts
@@ -507,7 +656,7 @@ End Fixed Navigation
     <script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
 
     <!-- Custom js -->
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 

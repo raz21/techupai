@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/flaticons.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
     <!-- bootstrap.min css -->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
     <!-- Lightbox.min css -->
@@ -63,88 +64,46 @@
     <!--
 Fixed Navigation
 ==================================== -->
-    <header class="navigation fixed-top">
-        <div class="container">
-            <!-- main nav -->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <!-- logo -->
-                <a class="navbar-brand logo" href="index.html">
-                    <img class="logo-default" src="images/logo.png" alt="logo" />
-                    <img class="logo-white" src="images/logo-white.png" alt="logo" />
-                </a>
-                <!-- /logo -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<header  id="header" class="navigation fixed-top">
+	<div class="container d-flex align-items-center justify-content-between">            
+		<a class="navbar-brand logo" href="index.html">
+			<img class="logo-default" src="images/logo.png" alt="logo" />
+			<img class="logo-white" src="images/logo-white.png" alt="logo" />
+		</a>
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+			<ul class="navbar-nav ml-auto text-center">
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="about.html"
+						id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false">About Us</a>
 
-                <div class="collapse navbar-collapse" id="navigation">
-                    <ul class="navbar-nav ml-auto text-center">
-                        <!-- <li class="nav-item dropdown active">
-		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-		  aria-haspopup="true" aria-expanded="false">
-		  Homepage
-		</a>
-		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		  <a class="dropdown-item" href="index.html">Homepage</a>
-		  <a class="dropdown-item" href="onepage-slider.html">Onepage</a>
-		  <a class="dropdown-item" href="onepage-text.html">Onepage 2</a>
-		</div>
-	  </li> -->
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="about.html"
-                                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">About Us</a>
-                            
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="about.html">Comany Overview</a>
-								<a class="dropdown-item" href="methodology.html">Our Approach</a>
-								<a class="dropdown-item" href="portfolio.html">Our Work</a>
-							</div>
-                        </li>
-                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="services.html"
-                                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">Services</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="services.html">Overview</a>
-                                <a class="dropdown-item" href="digital-banking.html">Digital Banking Solutions</a>
-								<a class="dropdown-item" href="digital-transformation.html">Digital Transformation</a>
-                                <a class="dropdown-item" href="cloud-solutions.html">Cloud Services</a>
-                                <a class="dropdown-item" href="mobile-development.html">Mobile Development</a>
-                                <a class="dropdown-item" href="product-engineering.html">Product Engineering</a>
-                                <a class="dropdown-item" href="app-services.html">Application Services</a>
-                                <a class="dropdown-item" href="digital-marketing.html">Digital Marketing</a>
-                                
-                            </div>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <!-- <li class="nav-item ">
-		<a class="nav-link" href="portfolio.html">Portfolio</a>
-	  </li>
-	  <li class="nav-item ">
-		<a class="nav-link" href="team.html">Team</a>
-	  </li>
-	  <li class="nav-item ">
-		<a class="nav-link" href="pricing.html">Pricing</a>
-	  </li> -->
-                        <!-- <li class="nav-item dropdown">
-		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-		  aria-haspopup="true" aria-expanded="false">
-		  Pages
-		</a>
-		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		  <a class="dropdown-item" href="404.html">404 Page</a>
-		  <a class="dropdown-item" href="blog.html">Blog Page</a>
-		  <a class="dropdown-item" href="single-post.html">Blog Single Page</a>
-		</div>
-	  </li> -->
-                    </ul>
-                </div>
-            </nav>
-            <!-- /main nav -->
-        </div>
-    </header>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="about.html">Comany Overview</a>
+						<a class="dropdown-item" href="methodology.html">Our Approach</a>
+						<a class="dropdown-item" href="portfolio.html">Our Work</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="services.html"
+						id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+						aria-expanded="false">Services</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="services.html">Overview</a>
+						<a class="dropdown-item" href="app-services.html">Application Services</a>
+						<a class="dropdown-item" href="digital-transformation.html">Digital Transformation</a>
+						<a class="dropdown-item" href="digital-banking.html">Digital Banking Solutions</a>
+						<a class="dropdown-item" href="mobile-development.html">Mobile Development</a>
+						<a class="dropdown-item" href="cloud-solutions.html">Cloud Services</a>
+						<a class="dropdown-item" href="product-engineering.html">Product Engineering</a>
+						<a class="dropdown-item" href="digital-marketing.html">Digital Marketing</a>
+					</div>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+			<i class="bi bi-list mobile-nav-toggle"></i>
+		</nav>
+	</div>
+</header>
     <!--
 End Fixed Navigation
 ==================================== -->
@@ -232,9 +191,8 @@ End Fixed Navigation
                                 <tr class="">
                                     <td class="srv-table-cell middle">
                                         <p><img alt="The actual value to business"
-                                                class="lazyload lazyloaded lazy entered loaded exited"
-                                                data-src="images/business-specificity-half-solid.svg" height="79"
-                                                style="height:84px; width:84px" width="79"
+                                                class="lazyicons"
+                                                data-src="images/business-specificity-half-solid.svg"
                                                 src="images/business-specificity-half-solid.svg"
                                                 data-ll-status="loaded"></p>
                                     </td>
@@ -249,9 +207,8 @@ End Fixed Navigation
                                 <tr class="">
                                     <td class="srv-table-cell middle">
                                         <p><img alt="Stable work and undemanding maintenance"
-                                                class="lazyload lazyloaded lazy entered loaded exited"
-                                                data-src="images/stable-code-solid.svg" height="79"
-                                                style="height:84px; width:84px" width="79"
+                                                class="lazyicons"
+                                                data-src="images/stable-code-solid.svg"
                                                 src="images/stable-code-solid.svg" data-ll-status="entered"></p>
                                     </td>
                                     <td class="srv-table-cell middle">
@@ -263,9 +220,8 @@ End Fixed Navigation
                                 <tr class="">
                                     <td class="srv-table-cell middle">
                                         <p><img alt="High quality and timely releases"
-                                                class="lazyload lazyloaded lazy entered loaded exited"
-                                                data-src="images/quality-solid.svg" height="79"
-                                                style="height:84px; width:84px" width="79"
+                                                class="lazyicons"
+                                                data-src="images/quality-solid.svg"
                                                 src="images/quality-solid.svg" data-ll-status="loaded"></p>
                                     </td>
                                     <td class="srv-table-cell middle">
@@ -278,9 +234,8 @@ End Fixed Navigation
                                 <tr class="">
                                     <td class="srv-table-cell middle">
                                         <p><img alt="Agile delivery of new features"
-                                                class="lazyload lazyloaded lazy entered loaded exited"
-                                                data-src="images/add-in-solid.svg" height="79"
-                                                style="height:84px; width:84px" width="79"
+                                                class="lazyicons"
+                                                data-src="images/add-in-solid.svg"
                                                 src="images/add-in-solid.svg" data-ll-status="loaded"></p>
                                     </td>
                                     <td class="srv-table-cell middle">
@@ -326,9 +281,8 @@ End Fixed Navigation
                                 <tr class="">
                                     <td class="srv-table-cell middle">
                                         <p><img alt="Remote application monitoring and performance management"
-                                                class="lazyload lazyloaded lazy entered exited loaded"
-                                                data-src="images/monitoring_1.svg" height="84"
-                                                style="height:84px; width:84px" width="84"
+                                                class="lazyicons"
+                                                data-src="images/monitoring_1.svg" 
                                                 src="images/monitoring_1.svg" data-ll-status="loaded"></p>
                                     </td>
                                     <td class="srv-table-cell middle"><strong>Remote application monitoring and
@@ -343,9 +297,8 @@ End Fixed Navigation
                                 <tr class="">
                                     <td class="srv-table-cell middle">
                                         <p><img alt="Remote application support"
-                                                class="lazyload lazyloaded lazy entered exited loaded"
-                                                data-src="images/support.svg" height="84"
-                                                style="height:84px; width:84px" width="84" src="images/support.svg"
+                                                class="lazyicons"
+                                                data-src="images/support.svg" src="images/support.svg"
                                                 data-ll-status="loaded"></p>
                                     </td>
                                     <td class="srv-table-cell middle">
@@ -358,10 +311,9 @@ End Fixed Navigation
                                 </tr>
                                 <tr class="">
                                     <td class="srv-table-cell middle">
-                                        <p><img alt="Help Desk&nbsp;"
-                                                class="lazyload lazyloaded lazy entered exited loaded"
-                                                data-src="images/24-7helpdesk-solid.svg" height="79"
-                                                style="height:84px; width:84px" width="79"
+                                        <p><img alt="Help Desk"
+                                                class="lazyicons"
+                                                data-src="images/24-7helpdesk-solid.svg" 
                                                 src="images/24-7helpdesk-solid.svg" data-ll-status="loaded"></p>
                                     </td>
                                     <td class="srv-table-cell middle">
@@ -384,9 +336,8 @@ End Fixed Navigation
                                 <tr class="">
                                     <td class="srv-table-cell middle">
                                         <p><img alt="Design and implementation of the Continuous Delivery (CD) pipeline"
-                                                class="lazyload lazyloaded lazy entered exited loaded"
-                                                data-src="images/devops_1.svg" height="79"
-                                                style="height:84px; width:84px" width="79" src="images/devops_1.svg"
+                                                class="lazyicons"
+                                                data-src="images/devops_1.svg" src="images/devops_1.svg"
                                                 data-ll-status="loaded"></p>
                                     </td>
                                     <td class="srv-table-cell middle">
@@ -465,9 +416,8 @@ End Fixed Navigation
                                 <tr class="">
                                     <td class="srv-table-cell middle">
                                         <p><img alt="Remote application monitoring and performance management"
-                                                class="lazyload lazyloaded lazy entered exited loaded"
-                                                data-src="images/pattern.svg" height="84"
-                                                style="height:84px; width:84px" width="84" src="images/pattern.svg"
+                                                class="lazyicons"
+                                                data-src="images/pattern.svg"  src="images/pattern.svg"
                                                 data-ll-status="loaded"></p>
                                     </td>
                                     <td class="srv-table-cell middle"><strong>Select an integration pattern that answers
@@ -481,9 +431,8 @@ End Fixed Navigation
                                 <tr class="">
                                     <td class="srv-table-cell middle">
                                         <p><img alt="Remote application support"
-                                                class="lazyload lazyloaded lazy entered exited loaded"
-                                                data-src="images/integration-risks.svg" height="84"
-                                                style="height:84px; width:84px" width="84"
+                                                class="lazyicons"
+                                                data-src="images/integration-risks.svg" 
                                                 src="images/integration-risks.svg" data-ll-status="loaded"></p>
                                     </td>
                                     <td class="srv-table-cell middle">
@@ -495,9 +444,8 @@ End Fixed Navigation
                                 <tr class="">
                                     <td class="srv-table-cell middle">
                                         <p><img alt="Help Desk&nbsp;"
-                                                class="lazyload lazyloaded lazy entered exited loaded"
-                                                data-src="images/integration-process.svg" height="79"
-                                                style="height:84px; width:84px" width="79"
+                                                class="lazyicons"
+                                                data-src="images/integration-process.svg" 
                                                 src="images/integration-process.svg" data-ll-status="loaded"></p>
                                     </td>
                                     <td class="srv-table-cell middle">
@@ -574,6 +522,115 @@ End Fixed Navigation
         </div>
     </section>
 
+    <section class="service-2 section">
+        <div class="container">
+            <div class="title text-center"> 
+                <h2>Product <span class="blue">Engineering</span></h2>
+                <p>Engineering to accelerate your growth </p>
+            </div>
+            <div class="row">
+                <div class="col-md-8 mt-20 order-lg-1 order-md-1 order-2">
+                    <p>Customers demand great experiences with their software, and we understand that deeply. Our process starts with your customer, whether internal to your organization or the end customer. </p>
+                    <p>You should not have to worry about your software if you have too much growth. As a cloud-first company, we leverage all the great available tools to make sure scale is never an issue while managing your total cost of ownership. We believe if you have no usage, you should have no cost. </p>
+                    <p>Each situation is unique, and we get it. We're here to help your team the way it works for you, whether it's as a separate team or embedded with your engineering team. Or utilize both to accelerate product iteration and increase knowledge continuity.  </p>
+                </div>
+                <div class="col-md-4 text-center order-lg-2 order-md-2 order-1">
+                    <img src="images/about/product-engg.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div> <!-- End container -->
+    </section>
+    <section class="strategy section" id="about">
+        <div class="container apprch">
+            <!-- section title -->
+            <div class="title text-center">
+                <h2 class="text-white"><span class="mango">Our</span> Approach </h2>
+                <p>We want to make sure your product is providing your customers with the best experience possible. This means that we need to understand your customers needs deeply, design an experience tailored for their needs, and make sure it is reliable. </p>
+            </div>
+            <!-- /section title -->
+            <div class="row">
+                <div class="col-lg-3 col-6 text-center ">
+                    <div class="counters-item slog">
+                        <i class="ionicons ion-ios-person-outline"></i>
+                        <h3>Product Owner</h3>
+                        <p>Listen to your customer, set the vision, and make sure it gets done</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 text-center ">
+                    <div class="counters-item slog">
+                        <i class="ionicons ion-code-working"></i>
+                        <h3>Tech Lead</h3>
+                        <p>Decide the right architecture and tools for your product and load</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 text-center ">
+                    <div class="counters-item slog">
+                        <i class="ionicons ion-ios-analytics-outline"></i>
+                        <h3>UX Lead</h3>
+                        <p>Design the right, lovable experience for your customer</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 text-center ">
+                    <div class="counters-item kill-border slog">
+                        <i class="ionicons ion-ios-cog-outline"></i>
+                        <h3>Testing Lead</h3>
+                        <p>Define the right testing strategy and drive execution for high performance and availability</p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End container -->
+    </section> <!-- End section -->
+
+    <section class="service-2 section">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12">
+					<!-- section title -->
+					<div class="title text-center">
+						<h2>Key <span class="blue">Offerings</span></h2>
+					</div>
+				</div>
+
+				<div class="col-md-4 text-center pt-5">
+					<img src="images/about/offering.png" class="img-fluid pt-5" alt="">
+				</div>
+				<div class="col-md-8">
+					<div class="row text-center">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="service-item"><ion-icon name="code-working"></ion-icon>
+								<i class="ion-ios-gear-outline"></i>
+								<h4>Feature Development</h4>
+								<p>Have a new feature idea for your existing web app? We can own it from end to end, enabling parallel development with your engineering team</p>
+							</div>
+						</div><!-- END COL -->
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="service-item">
+								<i class="ion-ios-analytics-outline"></i>
+								<h4>Minimum Lovable Products</h4>
+								<p>We'll work with you to plan, design and build your new idea while minimizing time and financial risk</p>
+							</div>
+						</div><!-- END COL -->
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="service-item">
+								<i class="ionicons ion-ios-cloud-outline"></i>
+								<h4>Cloud Provider Agnostic</h4>
+								<p>Doesn't matter if your stack is on AWS or Azure, we are fluent in the latest cloud services to help build efficiently</p>
+							</div>
+						</div><!-- END COL -->
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="service-item">
+								<i class="ion-android-phone-portrait"></i>
+								<h4>Product Advisory</h4>
+								<p>Don't need a full engineering team? We provide product and UX advisory services to help you build the right experience for your customers</p>
+							</div>
+						</div><!-- END COL -->
+					</div>
+				</div>
+			</div> <!-- End row -->
+		</div> <!-- End container -->
+	</section>
+
     <footer id="footer" class="bg-one">
         <div class="top-footer">
             <div class="container">
@@ -639,7 +696,7 @@ End Fixed Navigation
             </div> <!-- end container -->
         </div>
         <div class="footer-bottom">
-            <h5>Copyright © TECHUPAI Technologies 2023. All rights reserved</h5>
+            <h5>Copyright © TECHUPAI Technologies 2024. All rights reserved</h5>
         </div>
     </footer> <!-- end footer -->
 
@@ -676,7 +733,7 @@ End Fixed Navigation
     <script src="plugins/smooth-scroll/smooth-scroll.min.js"></script>
 
     <!-- Custom js -->
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
