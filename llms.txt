@@ -1,0 +1,36 @@
+# TECHUPAI
+
+> TECHUPAI is a digital technology partner based in Thane, Maharashtra, India, providing IT services and solutions — including Digital Transformation, Cloud Services, Product Engineering, Application Services, Mobile Development, Digital Banking Solutions, and Digital Marketing — to enterprises across Education, Healthcare, Finance, Retail, Travel, and Energy sectors.
+
+TECHUPAI helps businesses simplify processes, improve customer experience, and unlock value across their digital value chain, with additional expertise in Industrial Automation, Design Engineering, Plant IT, Manufacturing Integration & Intelligence, and Plant Data Reporting & Analytics.
+
+## Company
+
+- [About Us](https://techupai.com/about.html): Company overview, vision, mission, and core values (Integrity, Commitment, Accountability, Teamwork).
+- [Our Approach](https://techupai.com/methodology.html): TECHUPAI's methodology for understanding customer needs and delivering tailored, reliable digital experiences.
+- [Case Studies](https://techupai.com/portfolio.html): Success stories and completed client projects.
+- [Contact](https://techupai.com/contact.html): Office address, phone, and email for enquiries.
+
+## Services
+
+- [Services Overview](https://techupai.com/services.html): Summary of all service offerings and the industry verticals served.
+- [Digital Transformation](https://techupai.com/digital-transformation.html): Business-specific digital transformation strategy and modernization, avoiding one-size-fits-all trends.
+- [Cloud Services](https://techupai.com/cloud-solutions.html): Cloud-first, scalable solutions with attention to total cost of ownership.
+- [Product Engineering](https://techupai.com/product-engineering.html): Customer-centric product engineering and roadmap acceleration with high-performing teams.
+- [Application Services](https://techupai.com/app-services.html): Interoperable, scalable, and flexible web and mobile application development across industries.
+- [Mobile Development](https://techupai.com/mobile-development.html): Cross-platform mobile app development for engagement and cost-effectiveness.
+- [Digital Banking Solutions](https://techupai.com/digital-banking.html): Digital banking software and financial product solutions (e.g., mutual funds, fixed deposits, real estate platforms).
+- [Digital Marketing](https://techupai.com/digital-marketing.html): Data-driven, integrated digital marketing strategy and execution focused on lead generation and conversions.
+
+## Contact
+
+- Address: A-2 Keshav Heights, Parsik Nagar, Thane West, Maharashtra, India 400605
+- Phone: +91-90044 89072 / +91-90286 01608
+- Email: info@techupai.com
+
+## Optional
+
+- [Twitter](https://twitter.com/techupai)
+- [Facebook](https://www.facebook.com/techupai/)
+- [LinkedIn](https://www.linkedin.com/company/techupai/)
+- [Instagram](https://www.instagram.com/techupai/)

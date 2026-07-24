@@ -1,0 +1,110 @@
+# TECHUPAI
+
+> TECHUPAI is a digital technology partner based in Thane, Maharashtra, India, providing IT services and solutions — including Digital Transformation, Cloud Services, Product Engineering, Application Services, Mobile Development, Digital Banking Solutions, and Digital Marketing — to enterprises across Education, Healthcare, Finance, Retail, Travel, and Energy sectors.
+
+---
+
+## Home (https://techupai.com/)
+
+### Building scalable, customer-centric software
+We empower visionary leaders in the evolving world of technology. Provide seamless digital customer experience with data driven and cloud-enabled operations.
+
+### Delivering digital solutions to accelerate your success
+Bring intelligence, agility and connected experiences in your business. Build future-proof manufacturing operations embedded with intelligence and automation.
+
+### Who We Are
+TECHUPAI is your agile, business-results-driven digital technology partner. With the power of human and applied intelligence, we simplify business processes, improve customer experiences and create exceptional business value for forward-thinking enterprises. Our data-driven digital solutions unlock the hidden potential of your business across your digital value chain, helping to accelerate success, today and tomorrow.
+
+### We Are TECHUPAI
+We are the leading Engineering Services and Solutions provider with rich domain knowledge in Industrial Automation, Design Engineering, Software Development, Plant IT, Manufacturing Integration & Intelligence, and Plant Data Reporting & Analytics.
+
+- Delivering disruptive & future-driven digital solutions
+- Delivering the highest level of integrity with a customer-first attitude
+- We help our clients make software their strength
+- Building Machine Learning Pipelines at Scale
+- Transitioning from QA to QE in your Digital Transformation Journey
+- Helping you improve your bottom line & strengthen your competitive advantage
+
+### Our Approach
+We want to make sure your product is providing your customers with the best experience possible. This means that we need to understand your customers' needs deeply, design an experience tailored for their needs, and make sure it is reliable.
+
+### Key Offerings
+We offer cross platform Engineering Services and customized Solutions across 10+ industry verticals: Feature Development, Cloud Provider Agnostic delivery, Team Acceleration, Minimum Lovable Products.
+
+---
+
+## About Us (https://techupai.com/about.html)
+
+### We Create Designs and Technology
+TECHUPAI delivers enterprise mobility solutions for SMEs, Start-ups, and full-grown enterprises across the world. Since inception, the focal point of our business has been to create profound value for our customers by crafting intelligent solutions and services in path-breaking and cost-effective ways.
+
+We provide cutting-edge platforms in the field of Data Analytics, Cloud services, Analytics, QA, Mobile App, Custom Software Development, web development, E-commerce solutions, Digital marketing and Consulting Services for several business verticals like Retail, Education, Healthcare, IT, Finance, Manufacturing, and Insurance among others.
+
+We believe in developing and maintaining long term relationships with our clients and endeavor to provide best services in order to reap maximum benefits. Quality and commitment is something everyone looks for and that's what we strive to deliver in whatever we do. Client satisfaction is the foremost objective of our services.
+
+### Our Vision
+Complete dedication and commitment while delivering quality and leading services and solutions to our clients across various domains of industry, as they face technology-related challenges. TECHUPAI commits to develop and promote advanced software information technologies and untangle complex issues that arise daily with digital evolution, using a technical approach for enabling multi-user operation. We enable success in business driven by world-class leading technologies. We are responsive and cater to customer requirements promptly, apart from continuously evolving and reviewing our quality control systems. We take complete ownership of our customer needs and offer total accountability for our actions. Our commitment to our stakeholders is unmatched. We also streamline the capabilities of our talent pool in line with rapidly-changing technological advances to responsibly enable Greenfield projects for better sustainability and reliability.
+
+### Our Mission
+TECHUPAI is focused on becoming the complete Enterprise Mobility Solutions Partner, simultaneously setting a yardstick for hiring and retaining an efficient talent pool. We believe in exploring the latest technologies and implementing that learning for producing best-in-class solutions for our customers. We ensure optimal cost-effectiveness and make customer experiences more productive and exceptional. We empower Digital Transformation for you to thrive in today's era with minimal disruptions. We create meaningful brand differentiation and secure your business by making it future-ready. Creating lasting value defines our paradigm.
+
+### Our Core Values (Backbone of our company culture)
+- **Integrity** — We uphold the highest standards of integrity in all of our actions.
+- **Commitment** — We develop relationships that make a positive difference in our customers' lives.
+- **Accountability** — We are personally accountable for delivering on our commitments.
+- **Teamwork** — We believe teamwork enables ordinary people to achieve extraordinary things.
+
+### Clients
+TECHUPAI has worked with clients including SatvaLab, Insider, Furzli, Curb, sumHR, Snapdeal, Suvidhaa, Swaraj, Parkable, Zoom, ShopStyle, MGL, Mumbai Bank, myAC, MyVU, EDIC, and Seagate.
+
+---
+
+## Services Overview (https://techupai.com/services.html)
+
+### Our Services
+Transforming your business is hard, and very few get it right. It takes conviction and dedication to push through the hiccups and mistakes. We recognize the common pitfalls, and our approach is here to make that journey easier and make sure you realize the desired benefits.
+
+- **Digital Transformation** — Each business is unique, and we understand that. We won't recommend a solution just because it's trendy. We work with you to determine the best approach that works for your business.
+- **Cloud Services** — As a cloud-first company, we leverage all the great available tools and services to build scalable solutions that grow with your business. We care about your total cost of ownership.
+- **Mobile Development** — Our team of multiplatform app developers engineer high-performing cross-platform apps that deliver excellent engagement while ensuring overall cost-effectiveness.
+- **Product Engineering** — Customers demand great experiences with their software, and we understand that deeply. Our process starts with your customer, whether internal to your organization or the end customer.
+- **Application Services** — We have garnered enviable experience in the field of apps development. That experience helps us work on various challenging projects, and offer consistent results at all times.
+- **Digital Marketing** — A data-driven, integrated digital marketing strategy coupled with execution that may extend beyond the digital umbrella allows us to bring you leads and guarantee conversions.
+
+### Business Verticals
+TECHUPAI is a global and diversely talented organization of IT and business professionals working together to provide clients with real-world solutions for the education, healthcare, finance, retail, travel, energy and commercial areas. We focus on emerging technologies for building high performing web & mobile products that can be securely deployed in the cloud. Industries served include Education, Finance, Healthcare, Retail, Travel, and Energy.
+
+### Technology Stack
+React, Node.js, Python, Java, Google Cloud, Azure, Android, iOS, Angular, React Native, Xamarin, Flutter, PHP, Laravel, AWS.
+
+### Client Testimonials
+- *"I have had a very good experience working with TECHUPAI. They communicated with me every day and gave me updates on how the projects were going. Their developers are knowledgeable about the latest programming techniques and were able to modernize my website. They also quickly fixed many bugs that were left there by a previous developer."* — Esther Lennaerts, Founder & ED, Pressto
+- *"We had a very good experience working with Team TECHUPAI. They were able to understand our requirements for different financial products like Mutual Funds, Fixed Deposit, Real Estate etc. and provided suitable solutions as well."* — Vincentin, WealthTrace, Poland
+- *"Right from the start, TECHUPAI impressed us with their efficient and professional manner."* — Nigel D'souza, Mindfield Resources, UAE
+- *"Our complex specifications have been consistently met along with often tight deadlines and delivered to a high standard each time."* — William Martin, FinFolks, USA
+
+---
+
+
+The following pages exist in the site's navigation but weren't available to pull full content from in this pass — only the short overview blurbs above (from the Services Overview page) are reflected here:
+
+- [Our Approach / Methodology](https://techupai.com/methodology.html)
+- [Case Studies / Portfolio](https://techupai.com/portfolio.html)
+- [Application Services](https://techupai.com/app-services.html) (detail page)
+- [Digital Transformation](https://techupai.com/digital-transformation.html) (detail page)
+- [Digital Banking Solutions](https://techupai.com/digital-banking.html)
+- [Mobile Development](https://techupai.com/mobile-development.html) (detail page)
+- [Cloud Services](https://techupai.com/cloud-solutions.html) (detail page)
+- [Product Engineering](https://techupai.com/product-engineering.html) (detail page)
+- [Digital Marketing](https://techupai.com/digital-marketing.html) (detail page)
+- [Contact](https://techupai.com/contact.html)
+
+## Contact
+
+- Address: A-2 Keshav Heights, Parsik Nagar, Thane West, Maharashtra, India 400605
+- Phone: +91-90044 89072 / +91-90286 01608
+- Email: info@techupai.com
+- Twitter: https://twitter.com/techupai
+- Facebook: https://www.facebook.com/techupai/
+- LinkedIn: https://www.linkedin.com/company/techupai/
+- Instagram: https://www.instagram.com/techupai/
