@@ -1,0 +1,44 @@
+# Ignore all HTML and PHP files
+*.html
+*.php
+
+# EXCEPTIONS: Do NOT ignore these specific files
+# !index1.html
+# !index-home.html
+# !index-text.html
+
+
+# Ignore mail forms and scripts
+send-enquiry.php
+mail.php
+submitcontactmail.php
+
+# Ignore backup pages and layout templates
+contact-original.html
+portfolio-backup.html
+onepage-slider.html
+onepage-text.html
+treeView.html
+index1.html
+index-home.html
+index-text.html
+
+
+# send-enquiry.php
+# mail.php
+# submitcontactmail.php
+# 404.html
+# onepage-slider.html
+# onepage-text.html
+# pricing.html
+# single-post.html
+# team.html
+# treeView.html
+# index1.html
+# index-home.html
+# index-text.html
+# contact-original.html
+# portfolio-backup.html
+# blog.html
+
+

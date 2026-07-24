@@ -17,6 +17,9 @@ $(window).on('load', function () {
 });
 
 
+    // Current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
 //Hero Slider
 $('.hero-slider').slick({
   autoplay: true,
@@ -383,7 +386,7 @@ $(window).scroll(function () {
       clickable: true
     }
   });
-
+  
   /**
    * Animation on scroll
    */
@@ -395,6 +398,4 @@ $(window).scroll(function () {
       mirror: false
     });
   });
-    // Current year
-    document.getElementById('year').textContent = new Date().getFullYear();
 })()
