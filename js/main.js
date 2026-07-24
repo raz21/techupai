@@ -395,6 +395,6 @@ $(window).scroll(function () {
       mirror: false
     });
   });
-
-
+    // Current year
+    document.getElementById('year').textContent = new Date().getFullYear();
 })()
